@@ -1,0 +1,11 @@
+.treatments {
+ display: flex;
+ justify-content: center;
+ background-color: var(--color1);
+ height: 400px;
+}
+
+.treatments__title {
+ margin-block-start: 50px;
+ letter-spacing: 10px;
+}

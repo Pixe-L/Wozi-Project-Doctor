@@ -1,0 +1,56 @@
+.father-trayect {
+ height: 800px;
+}
+
+.trayect {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--color1);
+}
+
+.trayect__title {
+ letter-spacing: 10px;
+ margin-block-end: 15px;
+}
+
+.trayect__descript {
+ text-align: justify;
+}
+
+.pic-person {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+}
+
+.manifest {
+ text-align: center;
+ padding: 70px 0;
+ letter-spacing: 10px;
+}
+
+.vmv-container {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ gap: 30px;
+ padding: 0 50px;
+ margin: 50px;
+}
+
+.vmv__txt {
+ text-align: justify;
+}
+
+.container-vmv {
+ text-align: center;
+ padding: 0 30px;
+}
+
+.dra__name {
+ text-align: center;
+}
