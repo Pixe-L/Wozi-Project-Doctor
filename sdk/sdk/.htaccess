@@ -1,0 +1,54 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteRule ^(.*)\_(.*)\_.*.-Calendario$     index.php?identificador=5&ano=$1&mes=$2
+
+RewriteRule ^Inicio$                         index.php?identificador=1
+RewriteRule ^eventos$                        index.php?identificador=2
+RewriteRule ^(.*)\_.*._eventodetalle$        index.php?identificador=3&id=$1
+RewriteRule ^about$.                         index.php?identificador=4
+RewriteRule ^contacto$                       index.php?identificador=5
+RewriteRule ^(.*)\_.*._item$                 index.php?identificador=6&id=$1
+
+RewriteRule ^(.*)\_(.*)\_(.*)\_.*._wozial$   index.php?identificador=10&cat=$1&marca=$2&pag=$3
+RewriteRule ^(.*)\_ofertas$                  index.php?identificador=11&pag=$1
+RewriteRule ^(.*)\_.*.-.html$                index.php?identificador=15&id=$1
+
+
+RewriteRule ^addtocart$                      index.php?identificador=200
+RewriteRule ^emptycart$                      index.php?identificador=201
+
+RewriteRule ^(.*)\_Revisar_orden$            index.php?identificador=500
+RewriteRule ^(.*)\_revisar_orden$            index.php?identificador=500
+RewriteRule ^Revisar_datos_personales$       index.php?identificador=501
+RewriteRule ^revisar_datos_personales$       index.php?identificador=501
+RewriteRule ^procesar-pedido$                index.php?identificador=502
+RewriteRule ^procesar-deposito$              index.php?identificador=502&deposito=1
+
+RewriteRule ^(.*)\_(.*)\_.*._compra.html$    index.php?identificador=504&dom=$1
+RewriteRule ^(.*)\_.*._pagar$                index.php?identificador=505&idmd5=$1
+RewriteRule ^(.*)\_detalle$                  index.php?identificador=506&idmd5=$1
+RewriteRule ^(.*)\_orden.pdf$                index.php?identificador=507&idmd5=$1
+RewriteRule ^(.*)\_revisar.pdf$              index.php?identificador=508&idmd5=$1
+RewriteRule ^pedido-no-encontrado$           index.php?identificador=509
+RewriteRule ^success$                        index.php?identificador=511
+RewriteRule ^(.*)\_IPN$                      index.php?identificador=512&idmd5=$1
+
+RewriteRule ^Registro$                       index.php?identificador=900
+RewriteRule ^registro$                       index.php?identificador=900
+RewriteRule ^Mi-Cuenta$                      index.php?identificador=900
+RewriteRule ^mi-cuenta$                      index.php?identificador=900
+
+RewriteRule ^password-recovery$              index.php?identificador=901
+RewriteRule ^(.*)\-password_new$             index.php?identificador=902&id=$1
+
+RewriteRule ^logout$                         index.php?identificador=990
+RewriteRule ^salir$                          index.php?identificador=991
+RewriteRule ^humans.txt$                     index.php?identificador=994
+RewriteRule ^googleca2ead9fc0f8cf01.html$    index.php?identificador=995
+RewriteRule ^robots.txt$                     index.php?identificador=996
+RewriteRule ^sitemap.xml$                    index.php?identificador=997
+RewriteRule ^preguntas-frecuentes$           index.php?identificador=998
+RewriteRule ^(.*)\_politicas$                index.php?identificador=999&id=$1
+

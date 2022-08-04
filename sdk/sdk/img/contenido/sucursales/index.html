@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Acceso denegado</title>
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<style>
+		.bg0{ background: url(https://live.staticflickr.com/428/18149663983_1fc5dff5be_k.jpg); }
+		.bg1{ background: url(https://live.staticflickr.com/5039/6940287706_a236059c59_k.jpg); }
+		.bg2{ background: url(https://live.staticflickr.com/4741/26674749498_65ad87a35e_k.jpg); }
+		.bg3{ background: url(https://live.staticflickr.com/65535/48865409128_af61441280_b.jpg); }
+		.bg4{ background: url(https://live.staticflickr.com/65535/48869033952_3f0d737dc4_b.jpg); }
+		.bg5{ background: url(https://live.staticflickr.com/65535/48855351072_1808cb99b7_b.jpg); }
+		.bg6{ background: url(https://live.staticflickr.com/65535/48868274098_e0721cb1f2_b.jpg); }
+		.bg7{ background: url(https://live.staticflickr.com/65535/48868736296_8d79d70dd6_b.jpg); }
+		.bg8{ background: url(https://live.staticflickr.com/65535/48865872816_049fcdfa1c_b.jpg); }
+		.bg9{ background: url(https://live.staticflickr.com/7707/17389487171_f8b51ee48c_b.jpg); }
+		.bg10{ background: url(https://live.staticflickr.com/5573/15140683155_4b2e10fecd_b.jpg); }
+		#cuerpo{ background-size: cover; }
+	</style>
+</head>
+<body>
+	
+	<div id="cuerpo" class="uk-flex uk-flex-middle uk-flex-center uk-height-viewport">
+		<div class="uk-alert uk-alert-danger">
+			No se permite el acceso a esta carpeta
+		</div>
+	</div>
+
+
+	<script>
+		function fotos(){
+			var x = Math.floor((Math.random() * 10) + 1);
+			$('#cuerpo').addClass("bg"+x);
+		}
+		fotos();
+	</script>
+
+
+</body>
+</html>

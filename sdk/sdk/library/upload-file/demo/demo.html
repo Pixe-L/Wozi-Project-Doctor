@@ -1,0 +1,45 @@
+<html>
+<head>
+<link href="../css/uploadfile.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/jquery.uploadfile.js"></script>
+</head>
+<body>
+
+<div id="fileuploader">Upload</div>
+
+<script>
+$(document).ready(function() {
+
+	var imagenesArray = [];
+	$("#fileuploader").uploadFile({
+		url:"../php/upload.php",
+		fileName:"myfile",
+		maxFileCount:6,
+		showDelete: 'true',
+		allowedTypes: "jpeg,jpg,png,gif",
+		maxFileSize: 6291456,
+		showFileCounter: true,
+		showPreview:true,
+		returnType:'json',
+		onSuccess:function(files,data,xhr){ 
+			imagenesArray.push(data);
+			$("<input type='hidden' id='img_"+imagenesArray.indexOf(data)+"' name='frm_cla_foto[]' value='"+data+"'>").appendTo('#fNuevoClasificado');
+		},
+		deleteCallback: function(data,pd)
+		{
+			$("#img_"+imagenesArray.indexOf(data)).remove();
+			imagenesArray.splice(imagenesArray.indexOf(data), 1)
+			for(var i=0;i<data.length;i++)
+			{
+				$.post("removeImg.php",{op:"delete",pathImage:data[i]},
+				function(resp, textStatus, jqXHR){});
+			}		
+			pd.statusbar.hide(); //You choice to hide/not.
+		}
+	});
+});
+</script>
+</body>
+</html>
+

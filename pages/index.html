@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/styles.min.css" />
+  <link rel="stylesheet" type="text/css" href="../vendor/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="../vendor/slick-1.8.1/slick/slick-theme.css" />
+  <link
+   href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+   rel="stylesheet"
+   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+   crossorigin="anonymous"
+  />
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+   integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+  />
+  <title>Document</title>
+ </head>
+ <body>
+  <header
+   class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-around py-3 mb-4 border-bottom"
+  >
+   <div class="menu__h">
+    <a
+     href=""
+     class="d-flexs align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
+     data-bs-toggle="modal"
+     data-bs-target="#staticBackdrop"
+    >
+     <i class="fa-solid fa-bars"></i>
+    </a>
+   </div>
+
+   <div class="logo"><img src="../assets/home_03.png" alt="Logo web" class="logo_i" /></div>
+
+   <div class="col-md-3 text-end">
+    <button type="button" class="btn btn-sign">Iniciar Sesión</button>
+    <img src="../assets/home_06.png" alt="" class="c" />
+   </div>
+  </header>
+  <main class="main">
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+     ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+     ></button>
+     <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+     ></button>
+    </div>
+    <section class="carousel-inner">
+     <div class="carousel-item active">
+      <img src="../assets/carousel.png" class="d-block w-100" alt="image carousel" />
+     </div>
+     <div class="carousel-item">
+      <img src="../assets/carousel.png" class="d-block w-100" alt="image carousel" />
+     </div>
+     <div class="carousel-item">
+      <img src="../assets/carousel.png" class="d-block w-100" alt="image carousel" />
+     </div>
+    </section>
+    <aside class="discount">
+     <h3>20% de descuento hidrafacial durante todo el mes de junio</h3>
+    </aside>
+    <button
+     class="carousel-control-prev"
+     type="button"
+     data-bs-target="#carouselExampleIndicators"
+     data-bs-slide="prev"
+    >
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+     class="carousel-control-next"
+     type="button"
+     data-bs-target="#carouselExampleIndicators"
+     data-bs-slide="next"
+    >
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+    </button>
+   </div>
+   <div class="titulo">
+    <p class="gold">MI PIEL ES ORO</p>
+   </div>
+   <section class="products">
+    <div class="father-container row align-items-center">
+     <div class="father-scroll col-6">
+      <div class="container-scroll">
+       <div class="scroll-multi lazy">
+        <div class="scroll__img">
+         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
+        </div>
+        <div class="scroll__img">
+         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
+        </div>
+        <div class="scroll__img">
+         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
+        </div>
+        <div class="scroll__img">
+         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
+        </div>
+        <div class="scroll__img">
+         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
+        </div>
+       </div>
+       <p class="trata">TRATAMIENTOS</p>
+      </div>
+     </div>
+     <div class="father-product col-6">
+      <aside class="product__descript">
+       <h2>¡CUIDATE DEL SOL!</h2>
+       <p class="product__text col-10">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam in cum impedit saepe voluptatibus,
+        rerum adipisci alias. Incidunt, repudiandae voluptate? Optio nostrum numquam eveniet soluta, amet
+        rerum id beatae perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique
+        exercitationem quod asperiores eligendi. Quam ipsa, harum quisquam necessitatibus neque debitis
+        provident, obcaecati reiciendis totam doloremque quo quaerat vitae quas.
+       </p>
+       <button type="button" class="btn btn-light br-4">VER MÁS</button>
+      </aside>
+     </div>
+    </div>
+   </section>
+   <section class="person">
+    <div class="person-container row align-items-center">
+     <div class="dra text-center col-5">
+      <div class="dra__img">
+       <img src="../assets/logo-wozial.png" alt="" class="dra-img" />
+      </div>
+      <div class="dra__name">
+       <img src="../assets/home_27.png" alt="" class="dra-name" />
+      </div>
+     </div>
+     <div class="carrer col-5">
+      <h2 class="carrer__title">DERMATOLOGA</h2>
+      <p class="carrer__text">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam esse odio laborum possimus deserunt,
+       hic accusamus, deleniti et magnam, amet aliquid exercitationem architecto sit omnis blanditiis. Eaque
+       nostrum alias placeat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus unde, iusto
+       nisi asperiores odio officiis at architecto deleniti quo vitae perspiciatis ipsum possimus illo
+       voluptas dolore hic placeat quia voluptates.
+      </p>
+      <button type="button" class="btn btn-warning">VER MÁS</button>
+     </div>
+    </div>
+   </section>
+   <section class="farm">
+    <div class="farm-container">
+     <h2 class="farm__title">FARMACIA</h2>
+     <div class="farm-txt">
+      <p class="farm__txt">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis blanditiis vitae nesciunt. Non
+       provident itaque doloremque obcaecati velit ab cum, repellendus corporis vitae incidunt quod blanditiis
+       facere vel quos?
+      </p>
+     </div>
+    </div>
+    <div class="magic">
+     <div class="bord"></div>
+     <div class="icon">
+      <img src="../assets/flor.png" alt="icon page" class="icon__img img-fluid" />
+     </div>
+     <div class="bord"></div>
+    </div>
+   </section>
+   <aside class="new">
+    <div class="new-container">
+     <h2 class="new-txt">LO MÁS NUEVO</h2>
+    </div>
+   </aside>
+   <section class="news">
+    <div class="news-container">
+     <a href="#" class="container-news">
+      <div class="news__img">
+       <img src="../assets/detalle-producto_05.png" alt="Product image" class="icon__img img-fluid" />
+       <div class="news__descript overlay over-bottom">
+        <p class="news__title over-txt">FILORGA</p>
+        <div class="news-price">
+         <p class="news__price">$700.00</p>
+         <p class="news__price">$300.00</p>
+        </div>
+       </div>
+      </div>
+     </a>
+     <a href="#" class="container-news">
+      <div class="news__img">
+       <img src="../assets/detalle-producto_05.png" alt="Product image" class="icon__img img-fluid" />
+       <div class="news__descript overlay over-bottom">
+        <p class="news__title over-txt">FILORGA</p>
+        <div class="news-price">
+         <p class="news__price">$700.00</p>
+         <p class="news__price">$300.00</p>
+        </div>
+       </div>
+      </div>
+     </a>
+     <a href="#" class="container-news">
+      <div class="news__img">
+       <img src="../assets/detalle-producto_05.png" alt="Product image" class="icon__img img-fluid" />
+       <div class="news__descript overlay over-bottom">
+        <p class="news__title over-txt">FILORGA</p>
+        <div class="news-price">
+         <p class="news__price">$700.00</p>
+         <p class="news__price">$300.00</p>
+        </div>
+       </div>
+      </div>
+     </a>
+     <a href="#" class="container-news">
+      <div class="news__img">
+       <img src="../assets/detalle-producto_05.png" alt="Product image" class="icon__img img-fluid" />
+       <div class="news__descript overlay over-bottom">
+        <p class="news__title over-txt">FILORGA</p>
+        <div class="news-price">
+         <p class="news__price">$700.00</p>
+         <p class="news__price">$300.00</p>
+        </div>
+       </div>
+      </div>
+     </a>
+     <a href="#" class="container-news">
+      <div class="news__img">
+       <img src="../assets/detalle-producto_05.png" alt="Product image" class="icon__img img-fluid" />
+       <div class="news__descript overlay over-bottom">
+        <p class="news__title over-txt">FILORGA</p>
+        <div class="news-price">
+         <p class="news__price">$700.00</p>
+         <p class="news__price">$300.00</p>
+        </div>
+       </div>
+      </div>
+     </a>
+     <a href="#" class="container-news">
+      <div class="news__img">
+       <img src="../assets/detalle-producto_05.png" alt="Product image" class="icon__img img-fluid" />
+       <div class="news__descript overlay over-bottom">
+        <p class="news__title over-txt">FILORGA</p>
+        <div class="news-price">
+         <p class="news__price">$700.00</p>
+         <p class="news__price">$300.00</p>
+        </div>
+       </div>
+      </div>
+     </a>
+    </div>
+    <div class="btn-tienda text-center">
+     <button type="button" class="btn btn-warning">TIENDA</button>
+    </div>
+   </section>
+   <div class="magic">
+    <div class="bord"></div>
+    <div class="icon">
+     <img src="../assets/flor.png" alt="icon page" class="icon__img img-fluid" />
+    </div>
+    <div class="bord"></div>
+   </div>
+   <footer class="footer">
+    <div class="helps">
+     <nav class="navs">
+      <div class="title">NAVEGACIÓN</div>
+      <ul class="nav-list">
+       <a href="#" class="nav__items">
+        <li>HOME</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>SERVICIOS</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>DRA. ROCIO M.</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>TIENDA</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>PROMOCIONES</li>
+       </a>
+      </ul>
+     </nav>
+     <nav class="help">
+      <div class="title">AYUDA</div>
+      <ul class="nav-list">
+       <a href="#" class="nav__items">
+        <li>FAQ</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>AVISO DE PRIVACIDAD</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>TERMINOS Y CONDICIONES</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>POLITICAS DE ENVIO</li>
+       </a>
+      </ul>
+     </nav>
+     <nav class="social">
+      <div class="title">SOCIAL</div>
+      <ul class="nav-list">
+       <a href="#" class="nav__items">
+        <li>CONTACTO</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>NOTICIAS</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>MI CUENTA</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>FACEBOOK</li>
+       </a>
+       <a href="#" class="nav__items">
+        <li>INSTAGRAM</li>
+       </a>
+      </ul>
+     </nav>
+    </div>
+    <div class="reds">
+     <nav class="modal-redes">
+      <a href="" class="redes">
+       <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="" class="redes">
+       <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="" class="redes">
+       <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="" class="redes">
+       <i class="fa-brands fa-youtube"></i>
+      </a>
+     </nav>
+    </div>
+    <div class="reserved">
+     <p class="reserved-txt">
+      todos los derechos reservados mi piel es oro 2021 diseño por wozial marketing lovers
+     </p>
+    </div>
+   </footer>
+  </main>
+
+  <!-- Modal -->
+  <div
+   class="modal fade"
+   id="staticBackdrop"
+   data-bs-backdrop="static"
+   data-bs-keyboard="false"
+   tabindex="-1"
+   aria-labelledby="staticBackdropLabel"
+   aria-hidden="true"
+  >
+   <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+     <div class="modal-header">
+      <img class="modal-logo" src="../assets/flor_w.png" alt="" />
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+      <div class="modal__agenda">
+       <p>
+        AGENDA TU CITA <br />
+        CONSULTORIO: <br />
+        555555555 <br />
+        555555555
+       </p>
+       <p>¡Hola Pau!<i class="fa-solid fa-bag-shopping"></i></p>
+      </div>
+      <nav class="modal-menu">
+       <ul class="modal-menu__list">
+        <a href="" class="modal-menu__items">
+         <li>HOME</li>
+        </a>
+        <a href="" class="modal-menu__items">
+         <li>TIENDA</li>
+        </a>
+        <a href="" class="modal-menu__items">
+         <li>PROMOCIONES</li>
+        </a>
+        <a href="" class="modal-menu__items">
+         <li>TRATAMIENTOS</li>
+        </a>
+        <a href="" class="modal-menu__items">
+         <li>DRA. ROCIO MARQUEZ</li>
+        </a>
+        <a href="" class="modal-menu__items">
+         <li>CONTACTO</li>
+        </a>
+        <a href="" class="modal-menu__items">
+         <li>BLOG</li>
+        </a>
+       </ul>
+      </nav>
+      <nav class="modal-redes">
+       <a href="" class="redes">
+        <i class="fa-brands fa-whatsapp"></i>
+       </a>
+       <a href="" class="redes">
+        <i class="fa-brands fa-instagram"></i>
+       </a>
+       <a href="" class="redes">
+        <i class="fa-brands fa-facebook-f"></i>
+       </a>
+       <a href="" class="redes">
+        <i class="fa-brands fa-youtube"></i>
+       </a>
+      </nav>
+      <div class="privacidad">
+       <a href="" class="modal-priv">FAQ</a>
+       <a href="" class="modal-priv">AVISO DE PRIVACIDAD</a>
+       <a href="" class="modal-priv">TERMINOS Y CONDICIONES</a>
+       <a href="" class="modal-priv">POLITICAS DE ENVIO</a>
+      </div>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+   crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendor/slick-1.8.1/slick/slick.js"></script>
+  <script src="../JS/main.js"></script>
+ </body>
+</html>
