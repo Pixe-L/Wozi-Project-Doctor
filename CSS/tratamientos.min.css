@@ -9,3 +9,25 @@
  margin-block-start: 50px;
  letter-spacing: 10px;
 }
+
+.celu-product {
+ object-fit: cover;
+ box-shadow: 5px 5px 5px gray;
+}
+
+.treatments-products {
+ position: relative;
+ top: -150px;
+ gap: 20px;
+ justify-content: center;
+}
+
+.row * {
+ --bs-gutter-x: 0;
+ --bs-gutter-y: 0;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: calc(var(--bs-gutter-y) * 0);
+ margin-right: calc(var(--bs-gutter-x) * -0);
+ margin-left: calc(var(--bs-gutter-x) * -0);
+}
