@@ -1,0 +1,49 @@
+.schedule {
+ position: relative;
+ top: -250px;
+ background-color: white;
+ padding: 50px;
+ box-shadow: 0px 0px 30px grey;
+}
+
+.schedule-img {
+ box-shadow: 0px 0px 30px grey;
+}
+
+.schedule__descript {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+}
+
+.schedule__title {
+ letter-spacing: 10px;
+ font-size: 3rem;
+ border-bottom: 5px solid black;
+ margin-block-end: 15px;
+}
+
+.schedule__price {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.schedule__link {
+ text-decoration: none;
+}
+
+.btn-agend {
+ outline: none;
+ border-radius: 20px;
+ border: 1px solid black;
+ padding: 10px 40px;
+ background-color: transparent;
+ letter-spacing: 3px;
+ transition: 0.5s;
+}
+
+.btn-agend:hover {
+ background-color: var(--color1);
+}

@@ -16,9 +16,7 @@ a {
 
 body,
 html {
- /* width: 100%; */
  scroll-behavior: smooth;
- /* overflow-x: hidden; */
 }
 
 .btn-sign {
@@ -177,6 +175,10 @@ button .btn-nar {
 
 .farm-txt {
  width: 400px;
+}
+
+.discount h3 {
+ text-transform: uppercase;
 }
 
 .magic {
