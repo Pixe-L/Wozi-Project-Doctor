@@ -24,3 +24,12 @@ $('.carousel-person').slick({
  dots: true,
  arrows: true,
 });
+
+$('.product-carousel').slick({
+ dots: true,
+ infinite: true,
+ lazyLoad: 'ondemand',
+ slidesToShow: 1,
+ slidesToScroll: 1,
+ adaptiveHeight: true,
+});
