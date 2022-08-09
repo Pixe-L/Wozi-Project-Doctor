@@ -15,10 +15,77 @@
  margin: 50px 0;
 }
 
+.product__money {
+ margin-block-end: 10px;
+}
+
+.product__title {
+ font-size: 2rem;
+ letter-spacing: 10px;
+}
+
+.product__border {
+ background-color: black;
+ width: 161px;
+ height: 4px;
+ margin: 0 auto 15px;
+}
+
+.product__txt {
+ text-align: justify;
+ padding: 0 40px;
+}
+
+.product__detail {
+ background-color: var(--color2);
+ padding: 30px;
+}
+
+.product__prices {
+ outline: none;
+ background-color: transparent;
+ border: 1px solid black;
+ width: 135px;
+ height: 40px;
+}
+
+.product__canti {
+ outline: none;
+ background-color: transparent;
+ border: 1px solid black;
+ width: 83px;
+ height: 40px;
+}
+
 .product-img {
  margin: 0;
 }
 
-.product__container {
- box-shadow: 0px 0px 30px grey;
+.product-carousel {
+ margin-block-start: 30px;
+ box-shadow: 0px 0px 30px black;
+}
+
+.price-container {
+ display: flex;
+ flex-direction: column;
+}
+
+.canti-container {
+ display: flex;
+ flex-direction: column;
+}
+
+.money-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+}
+
+.btn-darks {
+ background-color: transparent;
+ padding: 10px 30px;
+ border-radius: 50px;
+ border: 1px solid black;
 }
