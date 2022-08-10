@@ -1,0 +1,98 @@
+.contact-container {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--color1);
+ padding: 150px 0 90px;
+}
+
+.contact__img {
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+
+.name-tel {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.wa-corr {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.form-container {
+ display: flex;
+ gap: 10px;
+ margin-block-end: 10px;
+}
+
+.contact__title {
+ font-size: 3rem;
+ letter-spacing: 10px;
+ margin-block-end: 25px;
+}
+
+.name-tel input {
+ background-color: transparent;
+ border: 1px solid black;
+ padding: 5px 2px;
+ width: 250px;
+ outline: none;
+}
+
+.wa-corr input {
+ background-color: transparent;
+ border: 1px solid black;
+ padding: 5px 2px;
+ width: 250px;
+ outline: none;
+}
+
+input::placeholder {
+ color: black;
+}
+
+#mensaje {
+ background-color: transparent;
+ border: 1px solid black;
+ width: 100%;
+ height: 100px;
+ outline: none;
+ padding: 5px 2px;
+}
+
+#mensaje::placeholder {
+ color: black;
+}
+
+.btn-darks {
+ background-color: transparent;
+ padding: 5px 30px;
+ border-radius: 50px;
+ border: 1px solid black;
+}
+
+.contact__btn {
+ text-align: center;
+ margin: 15px;
+}
+
+.search-container {
+ text-align: center;
+ margin: 40px 0;
+}
+
+.search__title {
+ font-size: 3rem;
+ letter-spacing: 10px;
+}
+
+.map {
+ margin-block-end: 20px;
+}
