@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="../CSS/styles.min.css" />
+  <link rel="stylesheet" href="../CSS/mobile.min.css" media="screen and (max-width: 700px)" />
   <link rel="stylesheet" type="text/css" href="../vendor/slick-1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="../vendor/slick-1.8.1/slick/slick-theme.css" />
   <link
@@ -24,7 +25,7 @@
   <title>Mi piel es oro</title>
  </head>
  <body>
-  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-around py-3">
+  <header class="header-nav">
    <div class="menu__h">
     <a
      href=""
@@ -108,31 +109,29 @@
    <section class="products">
     <div class="father-container row align-items-center">
      <div class="father-scroll col-6">
-      <div class="container-scroll">
-       <div class="scroll-multi lazy">
-        <div class="scroll__img">
-         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
-        </div>
-        <div class="scroll__img">
-         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
-        </div>
-        <div class="scroll__img">
-         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
-        </div>
-        <div class="scroll__img">
-         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
-        </div>
-        <div class="scroll__img">
-         <img class="img-fluid" data-lazy="../assets/DetalleTratamieto_03.png" alt="image" />
-        </div>
+      <div class="scroll-multi">
+       <div class="scroll__img">
+        <img class="img-fluid" src="../assets/DetalleTratamieto_03.png" alt="image" />
        </div>
-       <p class="trata">TRATAMIENTOS</p>
+       <div class="scroll__img">
+        <img class="img-fluid" src="../assets/DetalleTratamieto_03.png" alt="image" />
+       </div>
+       <div class="scroll__img">
+        <img class="img-fluid" src="../assets/DetalleTratamieto_03.png" alt="image" />
+       </div>
+       <div class="scroll__img">
+        <img class="img-fluid" src="../assets/DetalleTratamieto_03.png" alt="image" />
+       </div>
+       <div class="scroll__img">
+        <img class="img-fluid" src="../assets/DetalleTratamieto_03.png" alt="image" />
+       </div>
       </div>
+      <p class="trata">TRATAMIENTOS</p>
      </div>
-     <div class="father-product col-6">
+     <div class="father-product col">
       <aside class="product__descript">
        <h2>¡CUIDATE DEL SOL!</h2>
-       <p class="product__text col-10">
+       <p class="product__text">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam in cum impedit saepe voluptatibus,
         rerum adipisci alias. Incidunt, repudiandae voluptate? Optio nostrum numquam eveniet soluta, amet
         rerum id beatae perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique
@@ -156,7 +155,7 @@
        <img src="../assets/home_27.png" alt="" class="dra-name" />
       </div>
      </div>
-     <div class="carrer col-5">
+     <div class="carrer col">
       <h2 class="carrer__title">DERMATOLOGA</h2>
       <p class="carrer__text">
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam esse odio laborum possimus deserunt,
@@ -286,8 +285,8 @@
   </main>
   <footer class="footer">
    <div class="helps">
-    <nav class="navs">
-     <div class="title">NAVEGACIÓN</div>
+    <div class="container-nav">
+     <h3 class="title">NAVEGACIÓN</h3>
      <ul class="nav-list">
       <a href="../pages/index.html" class="nav__items">
        <li>HOME</li>
@@ -305,9 +304,9 @@
        <li>PROMOCIONES</li>
       </a>
      </ul>
-    </nav>
-    <nav class="help">
-     <div class="title">AYUDA</div>
+    </div>
+    <div class="container-nav">
+     <h3 class="title">AYUDA</h3>
      <ul class="nav-list">
       <a href="#" class="nav__items">
        <li>FAQ</li>
@@ -322,9 +321,9 @@
        <li>POLITICAS DE ENVIO</li>
       </a>
      </ul>
-    </nav>
-    <nav class="social">
-     <div class="title">SOCIAL</div>
+    </div>
+    <div class="container-nav">
+     <h3 class="title">SOCIAL</h3>
      <ul class="nav-list">
       <a href="../pages/contacto.html" class="nav__items">
        <li>CONTACTO</li>
@@ -342,7 +341,7 @@
        <li>INSTAGRAM</li>
       </a>
      </ul>
-    </nav>
+    </div>
    </div>
    <div class="reds">
     <nav class="modal-redes">

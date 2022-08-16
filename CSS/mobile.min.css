@@ -1,0 +1,89 @@
+/* INDEX */
+.header-nav {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.logo_i {
+ width: 150px;
+}
+
+.sign {
+ display: none;
+}
+
+.father-container {
+ display: flex;
+ flex-direction: column;
+ padding: 0;
+}
+
+.discount {
+ padding: 20px 0 15px;
+}
+
+.discount h3 {
+ text-transform: uppercase;
+ font-size: 1rem;
+}
+
+.titulo p {
+ font-size: 2rem;
+ letter-spacing: 5px;
+}
+
+.trata {
+ font-size: 1.5rem;
+ letter-spacing: 5px;
+}
+
+.carrer__title {
+ font-size: 2rem;
+ letter-spacing: 5px;
+}
+
+.farm__title {
+ font-size: 2rem;
+ letter-spacing: 15px;
+}
+
+.person-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 30px;
+}
+
+.helps {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.carrer__text {
+ width: 100%;
+}
+
+.dra__img img {
+ width: 150px;
+}
+
+.farm-container {
+ padding: 20px;
+}
+
+.farm-txt {
+ width: 100%;
+}
+
+.container-nav {
+ margin-block-end: 10px;
+}
+
+/* PERFIL */
+.father-trayect {
+ display: flex;
+ flex-direction: column;
+}

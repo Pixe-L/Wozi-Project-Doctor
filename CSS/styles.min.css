@@ -18,6 +18,8 @@ a {
 body,
 html {
  scroll-behavior: smooth;
+ max-width: 100%;
+ overflow-x: hidden;
 }
 
 .btn-sign {
@@ -29,6 +31,13 @@ button .btn-nar {
  background-color: var(--color1);
  padding: 8px 30px;
  border-radius: 20px;
+}
+
+.header-nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 10px 0;
 }
 
 /* CAROUSEL */
@@ -156,6 +165,10 @@ button .btn-nar {
  font-size: 4rem;
  letter-spacing: 5px;
  color: var(--color1);
+}
+
+.carrer__text {
+ width: 600px;
 }
 
 .person {
@@ -286,13 +299,17 @@ button .btn-nar {
  display: flex;
  justify-content: space-around;
 }
+.container-nav {
+ width: 250px;
+}
 
 .title {
  font-weight: bold;
  font-size: 1.5rem;
  text-align: center;
- border-bottom: 3px solid var(--color1);
- margin-block-end: 15px;
+ margin-block-end: 5px;
+ padding-block-end: 5px;
+ border-bottom: 4px solid var(--color1);
 }
 
 .nav__items {
