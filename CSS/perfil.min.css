@@ -1,13 +1,10 @@
-.father-trayect {
- height: 800px;
-}
-
 .trayect {
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
  background-color: var(--color1);
+ padding: 50px 0;
 }
 
 .trayect__title {
@@ -25,7 +22,12 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
- gap: 50px;
+}
+
+.study {
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .manifest {

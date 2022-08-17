@@ -83,7 +83,22 @@
 }
 
 /* PERFIL */
-.father-trayect {
+.vmv-container {
  display: flex;
  flex-direction: column;
+ margin: 0;
+ padding: 0;
+}
+
+.trayect__descript {
+ width: 100%;
+ text-align: justify;
+}
+
+.study img {
+ width: 100px;
+}
+
+.carousel-person__img img {
+ width: 100px;
 }
