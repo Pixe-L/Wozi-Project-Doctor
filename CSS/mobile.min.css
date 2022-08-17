@@ -102,3 +102,85 @@
 .carousel-person__img img {
  width: 100px;
 }
+
+/* TRATAMIENTOS */
+.treatments__title {
+ font-size: 1.7rem;
+}
+
+.treatments-products {
+ padding: 20px;
+ top: -272px;
+}
+
+/* AGENDAR */
+.schedule {
+ padding: 10px;
+}
+
+.schedule__title {
+ font-size: 2rem;
+}
+
+/* TIENDA */
+.product-container {
+ display: block;
+ text-align: center;
+}
+
+.store__title {
+ font-size: 1.5rem;
+}
+
+.discount {
+ text-align: center;
+}
+
+/* PRODUCTO */
+.interesting {
+ font-size: 1.5rem;
+ text-align: center;
+}
+
+.money-container {
+ display: flex;
+ flex-direction: column;
+}
+
+.product__title {
+ font-size: 1rem;
+}
+
+.product__detail {
+ padding: 0;
+}
+
+.product__txt {
+ padding: 0;
+}
+
+.product__border {
+ width: 130px;
+}
+
+/* CONTACTO */
+.contact__img {
+ display: none;
+}
+
+.contact__title {
+ font-size: 2rem;
+ text-align: center;
+}
+
+.name-tel input {
+ width: 155px;
+}
+
+.wa-corr input {
+ width: 155px;
+}
+
+.search__title {
+ font-size: 1.5rem;
+}
